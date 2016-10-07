@@ -1,0 +1,24 @@
+http://pythontutor.ru/lessons/inout_and_arithmetic_operations/problems/desks/
+a = int(input()) 
+b = int(input()) 
+c = int(input()) 
+print(a//2+a%2+b//2+b%2+c//2+c%2) 
+
+http://pythontutor.ru/lessons/inout_and_arithmetic_operations/problems/electronic_watch/
+a = int(input()) 
+b = a//(60*24) 
+print((a-b*60*24)//60,(a-b*60*24)-(a-b*60*24)//60*60) 
+
+http://pythontutor.ru/lessons/ifelse/problems/chocolate/
+a=int(input()) 
+b=int(input()) 
+c=int(input()) 
+if(a*b > c): 
+    if(c%a==0 or c%b==0): 
+        print('YES') 
+    else: 
+        print('NO') 
+else: 
+    print('NO') 
+    
+    
