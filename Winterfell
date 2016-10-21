@@ -14,6 +14,7 @@ http://pythontutor.ru/lessons/ifelse/problems/chocolate/
     b=int(input()) 
     c=int(input()) 
     if(a*b > c): 
+    
     if(c%a==0 or c%b==0): 
         print('YES') 
     else: 
@@ -39,7 +40,31 @@ http://pythontutor.ru/lessons/int_and_float/problems/motor_rally/
     m = int(input())
     print(ceil(m/n))
 
-
+http://pythontutor.ru/lessons/for_loop/problems/series_1/
+    A = int(input())
+    B = int(input())
+    for i in range(A,(B+1)):
+         print (i)
+         
+http://pythontutor.ru/lessons/for_loop/problems/series_2/
+    A = int(input())
+    B = int(input())
+    if (A < B):
+        for i in range(A,B+1):
+            print (i)
+    else:
+        for i in range(A,B-1,-1):
+            print (i)
+            
+http://pythontutor.ru/lessons/for_loop/problems/series_3/            
+    import math
+    a = int (input())
+    b = int (input())
+    k = int(math.ceil(a / 2) * 2 - 1)
+    for i in range (k, b - 1, -2 ):
+        print(i)
+            
+         
 
     
     
